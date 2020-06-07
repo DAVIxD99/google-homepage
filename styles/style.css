@@ -1,0 +1,151 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#header{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.head-link{
+    margin-right: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#prijava{
+    padding: 5px 20px;
+    color: white;
+    background-color: #4285f4;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+main{
+    margin-top: 140px;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+#search{
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    align-items: center;
+}
+
+#search:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.input{
+    border: none;
+    width: 40vw;
+    outline: none;
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+
+.fa-search{
+    color: #bfc0c2;
+}
+
+#button{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.btn{
+    margin-right: 20px;
+    border: none;
+    color: #474747;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    height: 36px;
+    width: 130px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: black;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+
+.btn:active{
+    border: 1px solid #4d90fe;
+}
+
+#slo{
+    bottom: 0;
+    margin: 0;
+    padding: 10px 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+footer{
+    bottom: 0;
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    color: rgba(0,0,0,.54);
+    font-size: 0.9em;
+}
+
+#foot{
+    display: flex;
+    padding: 10px 30px;
+}
+
+#oglas{
+    margin-left: 0;
+}
+
+#footer1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-link{
+    margin: 0 10px;
+    color: rgba(0,0,0,.54);
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
+
+.footer-link:active{
+    color: #dd4b39;
+}
+
+#footer2{
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
